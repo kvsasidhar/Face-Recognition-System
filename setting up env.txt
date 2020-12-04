@@ -1,0 +1,18 @@
+1. create new project in pycharm
+2. from terminal run: pip install -r requirements.txt
+3. after installation completion, go to conda prompt and the respective face recognition env
+4. run teh below  commands
+
+conda install -c anaconda mxnet
+Note: after installing mxnet if you get any numpy compatibility error, ignore it
+conda install -c menpo dlib==19.19.0
+
+5. go to pycharm: FIle-->settings-->facercogproj
+select python interpreter and add interpreter as shown in teh class video
+
+6. open src/app.py in pycharm
+comment line 16 (from readme_renderer import txt)
+
+comments lines 151-159 (def ckear and def clear2 methods
+
+
